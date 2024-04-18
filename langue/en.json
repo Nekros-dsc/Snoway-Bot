@@ -1,0 +1,335 @@
+{
+    "erreur": "An error has just occurred.",
+    "interaction": "You are not authorized to use this interaction",
+    "prefixbot": "My prefix on this server is:",
+    "ping": {
+        "ping": "My ping is:"
+    },
+    "owner": {
+        "clear": "All owners have been successfully removed.",
+        "set": "is now an owner.",
+        "buyerowner": "You cannot own yourself",
+        "deleteowner": "is no longer an owner.",
+        "nouser": "User not found.",
+        "introuvable": "Not found",
+        "nowoner": "No owner set.",
+        "embed": {
+            "title": "Owners"
+        }
+    },
+    "unowner": {
+        "nouser": "User not found.",
+        "nowoner": "This user is not an owner.",
+        "remove": "is no longer an owner."
+    },
+    "langue": {
+        "deja": "The language is already set to: {langCode}",
+        "erreur": "An error has occurred.",
+        "invalide": "Invalid language.",
+        "nolang": "Please provide a language...",
+        "set": "The language is now set to: {langCode}"
+    },
+    "help": {
+        "description": "No description available",
+        "aide": "*Variables between `<...>` are mandatory, while `[...]` are optional. Use the command `{prefix}help <command>` for more information.*",
+        "help": "`{prefix}help <command>` for more information",
+        "cmd": "Number of commands: ",
+        "prefix": "My prefix on this server is:",
+        "nocmd": "No command",
+        "inconnue": "This command does not exist. Use `{prefix}help` to see the list of commands.",
+        "command": "Command:",
+        "button": "Support Server"
+    },
+    "soutien": {
+        "newrole": "What is **the new role?**",
+        "newstatus": "What is **the new status?**",
+        "norole": "> `❌` Error: Invalid role!",
+        "noreponse": "Response time expired.",
+        "embed": {
+            "title": "Support Settings",
+            "status": "Status",
+            "role": "Role to give",
+            "vanity": "Vanity",
+            "noconfig": "Not configured"
+        },
+        "select": {
+            "vanity": "Vanity",
+            "role": "Role to give",
+            "status": "Enabled/disabled"
+        }
+    },
+    "sethelp": {
+        "menu": "Select the type of help",
+        "set": "Type of help modified.",
+        "description": "Select the type of help you want to use."
+    },
+    "savembed": {
+        "none": "No embeds saved.",
+        "presencedb": "An embed with the name `{name}` already exists.",
+        "nomessage": "Message not found. Make sure the message ID is correct.",
+        "save": "The embed has just been saved under the name",
+        "noembed": "The specified message does not contain an embed.",
+        "embed": {
+            "title": "List of embeds"
+        }
+    },
+    "loadembed": {
+        "noembed": "No embeds saved.",
+        "noresult": "No embed saved with the name"
+    },
+    "prefix": {
+        "set": "🛠️ *Prefix modified to:*",
+        "invalide": "> `❌` Error: The given prefix is already the server's prefix.",
+        "noperfix": "> `❌` Error: Please specify a `prefix`"
+    },
+    "mybot": {
+        "aucun": "You have no bots!",
+        "nobot": "Bot not found",
+        "embed": {
+            "title": "Your Bots"
+        }
+    },
+    "emoji": {
+        "create": "have been created"
+    },
+    "essyembed": {
+        "invalide": "Invalid color.",
+        "usage": "easyembed <color> <text>"
+    },
+    "defautrole": {
+        "add": "has just been added to the default role.",
+        "remove": "has been removed from the default roles.",
+        "no": "The role `{RoleName}` does not exist.",
+        "embed": {
+            "title": "Default Role",
+            "aucun": "No roles"
+        }
+    },
+    "backup": {
+        "create": {
+            "attente": "Creation of the current backup...",
+            "noname": "Please provide a name for the backup",
+            "deja": "A backup with this name already exists",
+            "erreur": ":x: An error occurred.",
+            "succes": "The backup of the server `{GuildName}` has been generated in **{Time}ms**."
+        },
+        "delete": {
+            "noname": "Please provide the name of a backup",
+            "erreur": ":x: An error occurred.",
+            "succes": "👀 The backup `{BackupName}` has been successfully deleted.",
+            "invalide": "Invalid or nonexistent backup name..."
+        },
+        "clear": {
+            "no": "No backups found!",
+            "erreur": ":x: An error occurred.",
+            "succes": "Your backups have been successfully deleted!"
+        },
+        "list": {
+            "aucune": "There are no backups.",
+            "embed": {
+                "title": "List of Backups"
+            },
+            "backup": {
+                "code": "Code",
+                "server": "Server Name",
+                "taile": "Size",
+                "role": "Roles",
+                "categorie": "Category",
+                "channels": "Channels",
+                "cree": "Created"
+            }
+        },
+        "load": {
+            "start": "Your backup is currently being loaded. Please be patient.",
+            "end": "Your backup has just been loaded in",
+            "no": "Please provide the name of a backup",
+            "invalide": "Invalid or nonexistent backup name.",
+            "select": {
+                "role": "Load roles",
+                "salon": "Load channels",
+                "emoji": "Load emojis",
+                "bans": "Load bans",
+                "place": "Select backup options..."
+            },
+            "embed": {
+                "title": "Loading a backup",
+                "description": "__Option loading__"
+            },
+            "backup": {
+                "info": "Backup Information",
+                "role": "Roles",
+                "date": "Date",
+                "categorie": "Category",
+                "channels": "Channels"
+            },
+            "option": {
+                "none": "None",
+                "role": "Roles",
+                "channels": "Channels",
+                "bans": "Bans",
+                "emoji": "Emojis"
+            }
+        }
+    },
+    "remid": {
+        "hello": "Hello",
+        "rappelle": "I'm here to remind you of:",
+        "set": "Reminder set. I will remind you in",
+        "temps": "Please specify a valid duration for the reminder."
+    },
+    "activity": {
+        "clear": "The activiter was clear!",
+        "ou": "or",
+        "set": "The bot's activity has been changed to",
+        "invalide": "Please specify a valid activity type:"
+    },
+    "uptime": "I have been connected for",
+    "server": {
+        "start": "Searching in progress...",
+        "embed": {
+            "title": "List of my servers",
+            "description": "> Here is the list of my servers"
+        }
+    },
+    "name": {
+        "set": "I have successfully changed my name to:",
+        "long": "The name is too long.",
+        "court": "The name is too short."
+    },
+    "leave": {
+        "none": "I couldn't find the specified guild or the current guild.",
+        "non": "Cancellation.",
+        "good": "I have successfully left the server.",
+        "stop": "Operation canceled.",
+        "demande": "Do you really want me to leave the server: **{GuildName}**? Reply with `yes` or `no`."
+    },
+    "pfp": {
+        "set": "The profile pictures (pfps) channel has just been assigned to",
+        "channel": "The specified channel is invalid.",
+        "off": "Profile picture (pfp) system has just been deactivated."
+    },
+
+    "ticket": {
+        "load": "Loading options!",
+        "option": "Open a ticket",
+        "defautMessage": "Please contact support. Describe your issue and wait for a response.",
+        "event": {
+            "maxticket": "You have already reached the maximum number of open tickets!",
+            "norequisrole": "You do not have one of the required roles to open a ticket!",
+            "roleinterdit": "You have one of the forbidden roles to open a ticket!",
+            "open": "Ticket opened",
+            "buttonclaim": "Claim ticket",
+            "buttonclose": "Close ticket",
+            "openticket": "Ticket opened by "
+        },
+        "command": {
+            "deletedata": "***Do you really want to delete all ticket system data?***",
+            "rolerequis": "***Which role do you want to assign for required roles?***",
+            "invaliderole": "***The mentioned role is invalid. Please mention a valid role.***",
+            "roleinterdit": "***Which role do you want to assign for forbidden roles?***",
+            "maxticket": "***Please indicate the new maximum number of tickets per person.***\n*Example:* `1` or `4`",
+            "nombreinvalide": "Please enter a positive integer.",
+            "temps": "The response time has expired or an error occurred.",
+            "salon": "***Which channel do you want to use for the ticket?***",
+            "saloninvalide": "***The mentioned channel is invalid. Please mention a valid channel.***",
+            "messagechannel": "***The ticket channel is invalid. Please configure it to continue.***",
+            "messageId": "Please provide the new **message ID** for the ticket system.",
+            "messageinvalide": "The provided message ID is invalid or not found. Please provide a valid message ID.",
+            "finit": "Time's up. Operation canceled.",
+            "maxoption": "You can only configure up to 25 options for tickets.",
+            "aucuneoption": "You haven't created any options for tickets.",
+            "selectoptions": "Ticket options",
+            "deleteoptions": "Please select an option to delete.",
+            "roleoptions": "***Which role do you want to assign/remove for the mentioned roles?***",
+            "optionticket": "***Which channel do you want to use for the option?***",
+            "emojioption": "***Which emoji do you want to use?***",
+            "emojiinvalide": "The provided emoji is invalid.",
+            "textoptions": "***Please indicate the text for the option.***",
+            "invalidetext": "The provided option name is invalid.",
+            "invalidetextcaractre": "The option name cannot exceed 80 characters.",
+            "description": "***Please indicate the description of the selection menu.***",
+            "nodescription": "The description of the provided option is invalid.",
+            "invalidedescriptioncaractre": "The description of the option cannot exceed 100 characters.",
+            "textdouvert": "***Please indicate the opening message for the ticket.***",
+            "textdouvertinvalide": "The embed message of the provided option is invalid.",
+            "caracteres": "The embed message cannot exceed 200 characters.",
+            "categorie": "***What will be the category of the tickets?***",
+            "invalidecategorie": "The provided category is invalid.",
+            "valide": {
+                "option": "Ticket options are not configured",
+                "nochannel": "The ticket channel is not configured",
+                "nomessage": "The message for tickets is not from me, so I cannot modify the message",
+                "actif": "Ticket panel active",
+                "embeds": {
+                    "title": "Tickets",
+                    "description": "Use this menu to create a ticket and contact staff"
+                }
+            },
+            "embedMenu": {
+                "title": "Ticket Settings",
+                "fields": {
+                    "salon": "**Channel**",
+                    "type": "**Ticket Type**",
+                    "max": "**Max Tickets**",
+                    "claim": "**Claim Button**",
+                    "close": "**Close Button**",
+                    "transcript": "**Transcript DM**",
+                    "role": "**Required Roles**",
+                    "roleinterdit": "**Forbidden Roles**",
+                    "closeauto": "**Close Automatically**",
+                    "closeautoticket": "Close on member leave"
+                },
+                "selectoption": {
+                    "create": "Create an option",
+                    "menu": "Manage options",
+                    "delete": "Delete an option"
+                },
+                "select": {
+                    "menu": "Manage Tickets",
+                    "salon": "Modify Channel",
+                    "message": "Message ID",
+                    "type": "Button/Selector Type",
+                    "max": "Max Tickets",
+                    "buttonclaim": "Claim Button",
+                    "close": "Close Button",
+                    "transcript": "DM Transcript",
+                    "requis": "Required Roles",
+                    "interdit": "Forbidden Roles",
+                    "leave": "Close on Leave"
+                }
+            },
+            "embedOption": {
+                "title": "Option Settings",
+                "aucun": "None",
+                "button": "❌ Delete Option",
+                "vosoption": "Your options",
+                "field": {
+                    "categorie": "**Category**",
+                    "emoji": "**Emoji**",
+                    "nom": "**Option Name**",
+                    "logs": "**Log Channel**",
+                    "transcript": "**Transcript**",
+                    "role": "**Mentioned Roles**",
+                    "description": "**Description (Selector only)**",
+                    "message": "**Message**"
+                },
+                "select": {
+                    "categorie": "Category",
+                    "emoji": "Emoji",
+                    "label": "Button/Selector Name",
+                    "logs": "Log Channel",
+                    "transcript": "Transcript",
+                    "role": "Mentioned Role",
+                    "description": "Description (Selector only)",
+                    "message": "Ticket Opening Message"
+                }
+            }
+        }
+    }, 
+    "resetbot": {
+        "reset": "The bot's data has been successfully deleted!",
+        "message": "Do you really want to delete all the bot's data?",
+        "noreset": "I won't delete my data.",
+        "erreur": "An error has occurred."
+      }
+}
